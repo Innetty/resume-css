@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100&family=Neucha&family=Raleway:ital,wght@0,100;0,400;1,100;1,400&family=Rubik+Bubbles&display=swap');
+body
+{
+  background-color: hsl(153, 100%, 96%);
+  color: rgb(15, 12, 12);
+  font-size: 16px;
+  font-weight: bold;
+font-family:'Neucha', cursive;
+'Rubik Bubbles', cursive;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    color: aqua;
+}
+a:visited {
+    color: rgb(0, 151, 156);
+}
+.avatar {
+    width: 200px;
+    border-radius: 4px;
+    box-shadow: 5px 10px 20px 9px rgba(0, 0, 0);
+}
+
+.info p {
+color:rgb(44, 134, 119);
+margin: 0;
+font-style: italic;
+font-weight: bold;
+letter-spacing: 2px;
+}
+.info {
+    display: flex;
+}
+.info-text {
+    margin-left: 40px;
+    padding-top: 30px;
+}
+@media (width-max: 700px) {
+    .info {
+        text-align: center;
+        display: block;
+}
+}
+.exper {
+padding: 15px;
+    background: red;
+}
+.container {
+margin: auto;
+max-width: 950px;
+}
+.jun {
+font-size: 20px;    
+}
+.card {
+    background-color: rgb(204, 242, 245);
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+    .list {
+    padding: 0%;
+    }
+    .table {
+        width: 100%;
+    }
+    .table td {
+        padding-bottom: 15px;
+    }
+    .contact h3 {
+        text-align: center;
+    }
+    .form-group label{
+display: block;
+color: rgb(15, 12, 12);
+    }
+    .form-group input,
+    .form-group textarea {
+width: 100%;
+box-sizing: border-box;
+border: none;
+border-bottom: 1px solid #ccc;
+padding: 12px 0 12px;
+outline: none;
+font-family: inherit;
+    }
+    .row {
+        display: flex;
+        margin-bottom: 20px;
+    }
+    .row > .form-group {
+        width: 50%;
+        margin-right: 20px;
+    }
+    .btn {
+        box-sizing: border-box;
+        color: black;
+        background: rgb(71, 218, 201);
+padding: 15px 20px;
+margin-left: 50%;
+border: none;
+font-family: inherit;
+cursor: pointer;
+border-radius: 20px;
+    }
+    .btn :hover {
+        opacity: 55;
+    }
+    .position {
+
+    }
+    .box {
+        width: 50px;
+        height: 50px;
+    }
